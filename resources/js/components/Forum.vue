@@ -1,6 +1,15 @@
 <template>
   <v-container>
     <v-row no-gutters>
+      
+      <v-col
+        cols="12"
+        md="4"
+        sm="6"
+        class="mb-3"
+      >
+          <app-sidebar></app-sidebar>
+      </v-col>
       <v-col
         cols="12"
         sm="6"
@@ -12,12 +21,6 @@
         :question=question
         >
         </questions>
-      </v-col>
-      <v-col
-        cols="6"
-        md="4"
-      >
-          <app-sidebar></app-sidebar>
       </v-col>
     </v-row>
   </v-container>
@@ -42,3 +45,6 @@ export default {
     },
 }
 </script>
+<style>
+.container{height:100vh;}
+</style>

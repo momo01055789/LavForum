@@ -7,6 +7,7 @@ import Vuetify from 'vuetify'
 import router from './Router'
 import User from './Helpers/User'
 import Exception from './Helpers/Exception';
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 Vue.use(Vuetify)
 window.User = User
 Window.Exception = Exception

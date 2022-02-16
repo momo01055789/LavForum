@@ -1,6 +1,6 @@
 <template>
   <v-parallax
-    height="674"
+    height="700"
     dark
     src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
   >
