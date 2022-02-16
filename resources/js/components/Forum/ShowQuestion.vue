@@ -1,10 +1,10 @@
 <template>
     <v-card
         class="mx-auto mt-4"
-        max-width="700"
+        max-width="90%"
         elevation="1"
         outlined
-        shaped>
+        >
             <v-card-title>
                 {{ data.title }}
             <v-spacer></v-spacer>

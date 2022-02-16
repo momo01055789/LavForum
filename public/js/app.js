@@ -5402,6 +5402,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -38203,10 +38205,11 @@ var render = function () {
           _vm._v(" "),
           _c(
             "v-col",
-            { attrs: { cols: "12", sm: "6", md: "8" } },
+            { staticClass: "px-3", attrs: { cols: "12", sm: "6", md: "8" } },
             _vm._l(_vm.questions, function (question) {
               return _c("questions", {
                 key: question.title,
+                staticStyle: { "max-width": "450px" },
                 attrs: { question: question },
               })
             }),
@@ -38647,7 +38650,7 @@ var render = function () {
     "v-card",
     {
       staticClass: "mx-auto mt-4",
-      attrs: { "max-width": "700", elevation: "1", outlined: "", shaped: "" },
+      attrs: { "max-width": "90%", elevation: "1", outlined: "" },
     },
     [
       _c(

@@ -14,11 +14,13 @@
         cols="12"
         sm="6"
         md="8"
+        class="px-3"
       >
         <questions
         v-for="question in questions"
         :key="question.title"
         :question=question
+        style="max-width:450px"
         >
         </questions>
       </v-col>
